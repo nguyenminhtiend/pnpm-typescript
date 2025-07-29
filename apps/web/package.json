@@ -1,0 +1,21 @@
+{
+  "name": "@pnpm-monorepo/web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web application",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@pnpm-monorepo/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.9",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

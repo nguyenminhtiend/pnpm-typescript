@@ -1,0 +1,23 @@
+{
+  "name": "my-typescript-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TypeScript monorepo with pnpm workspaces",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "clean": "pnpm -r clean"
+  },
+  "keywords": [
+    "monorepo",
+    "typescript",
+    "pnpm"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
