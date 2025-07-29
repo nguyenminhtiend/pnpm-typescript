@@ -1,10 +1,12 @@
-import { capitalize, chunk, unique, kebabCase } from '@pnpm-monorepo/utils';
+import { capitalize, chunk, unique, kebabCase, sum } from '@pnpm-monorepo/utils';
 
 // Example usage of utility functions
 const names = ['john doe', 'jane smith', 'bob johnson', 'alice brown'];
 const duplicateNumbers = [1, 2, 2, 3, 4, 4, 5];
 
 console.log('=== Web App Demo ===');
+
+console.log('Sum', sum(1, 10));
 
 // Capitalize names
 console.log('\nCapitalized names:');
@@ -30,4 +32,4 @@ console.log('\nUnique numbers:');
 console.log('Original:', duplicateNumbers);
 console.log('Unique:', unique(duplicateNumbers));
 
-console.log('\n=== Demo Complete ===');
+console.log('\n=== Demo Complete 123 ===');
